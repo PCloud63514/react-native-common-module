@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "rm -rf Develop/dist && tsc -w --outDir Develop/dist",
+    "start": "tsc -w --outDir Develop/dist",
     "test": "jest",
 	"format": "prettier --check ./src",
     "lint": "eslint --ext .tsx --ext .ts src/",
-	"start:expo": "rm -rf DevelopWithExpo/dist && tsc -w --outDir DevelopWithExpo/dist",
-	"prepare": "rm -rf dist && tsc"
+	"start:expo": "tsc -w --outDir DevelopWithExpo/dist",
+	"prepare": "tsc"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
@@ -31,13 +31,13 @@
     "react": "17.0.1",
     "react-native": "0.64.0"
   },
-    "keywords": [
+  "keywords": [
     "react-native",
     "react-component",
     "react-native-component",
     "react",
     "ios",
-    "android",
+    "android"
   ],
   "author": "pcloud63514 <pcloud63514@gmail.com>",
   "license": "MIT",

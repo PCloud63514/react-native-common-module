@@ -21,6 +21,7 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true
   },
+  //"DevelopWithExpo", "Example", "ExampleWithExpo",
   "include": ["src"],
-  "exclude": ["node_modules", "Develop", "DevelopWithExpo", "Example", "ExampleWithExpo", "dist"]
+  "exclude": ["node_modules", "Develop",  "dist"]
 }
