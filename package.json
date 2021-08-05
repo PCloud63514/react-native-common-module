@@ -10,8 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@types/react-native-sqlite-storage": "^5.0.1",
+    "babel-plugin-module-resolve": "0.0.2",
+    "babel-plugin-module-resolver": "^4.1.0",
     "react": "17.0.1",
-    "react-native": "0.64.1"
+    "react-native": "0.64.1",
+    "react-native-sqlite-storage": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
